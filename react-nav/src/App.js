@@ -7,7 +7,7 @@ import Routes from "./utils/routing";
 function App() {
   return (
     <div className='App'>
-      <h1>ReactJS</h1>
+      <h1>ReactJS Home</h1>
       <Routes />
     </div>
   );
