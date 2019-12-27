@@ -10,29 +10,15 @@ const Routes = () => {
   return (
     <BrowserRouter>
       <div className='nav-main'>
-        <ul>
-          <button>
-            <li>
-              <Link className='nav-link' to='/'>
-                Landing Page
-              </Link>
-            </li>
-          </button>
-          <button>
-            <li>
-              <Link className='nav-link' to='/about'>
-                About
-              </Link>
-            </li>
-          </button>
-          <button>
-            <li>
-              <Link className='nav-link' to='/contact'>
-                Contact
-              </Link>
-            </li>
-          </button>
-        </ul>
+        <button className='nav-button'>
+          <Link to='/home'>Landing Page</Link>
+        </button>
+        <button className='nav-button'>
+          <Link to='/about'>About</Link>
+        </button>
+        <button className='nav-button'>
+          <Link to='/contact'>Contact</Link>
+        </button>
       </div>
 
       <Switch>
