@@ -9,17 +9,29 @@ import { Home } from "../components/home";
 const Routes = () => {
   return (
     <BrowserRouter>
-      <div>
+      <div className='nav-main'>
         <ul>
-          <li>
-            <Link to='/home'>Landing Page</Link>
-          </li>
-          <li>
-            <Link to='/about'>About</Link>
-          </li>
-          <li>
-            <Link to='/contact'>Contact</Link>
-          </li>
+          <button>
+            <li>
+              <Link className='nav-link' to='/'>
+                Landing Page
+              </Link>
+            </li>
+          </button>
+          <button>
+            <li>
+              <Link className='nav-link' to='/about'>
+                About
+              </Link>
+            </li>
+          </button>
+          <button>
+            <li>
+              <Link className='nav-link' to='/contact'>
+                Contact
+              </Link>
+            </li>
+          </button>
         </ul>
       </div>
 
