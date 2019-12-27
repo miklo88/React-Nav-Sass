@@ -1,6 +1,10 @@
 import React from "react";
 import { BrowserRouter, Route, Link, Switch } from "react-router-dom";
 
+// importing pages or components the routes link to.
+import { About } from "../components/about";
+import { Contact } from "../components/contact";
+
 const Routes = () => {
   return (
     <BrowserRouter>
@@ -19,7 +23,7 @@ const Routes = () => {
       </div>
 
       <Switch>
-        <Route path='/' component={App} />
+        <Route path='/' />
         <Route path='/about' component={About} />
         <Route path='/contact' component={Contact} />
       </Switch>
