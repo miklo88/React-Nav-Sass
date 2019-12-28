@@ -10,7 +10,7 @@
 // }
 
 // mixin imports
-
+// app styling acting as body styling.
 .App {
   font-family: "Lato", sans-serif;
   height: 2000px;
@@ -22,37 +22,49 @@
 }
 
 h1 {
-  color: $primary-blue;
+  color: $off-white;
 }
-p {
-  color: $primary-blue;
+// p {
+//   color: $off-white;
+// }
+.btn-text {
+  color: $secondary-blue;
 }
 
 // Nav
 // nav-main
 .nav-main {
-  width: 100%;
-  padding: 5%;
-  background-color: $primary-coral;
-  display: flex;
-  justify-content: center;
+  display: flexbox;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: flex-end;
   align-items: center;
+  background-color: $secondary-blue;
+  width: 100%;
+  padding: 5px;
 }
 
 // BUTTONS
 // navigation buttons
 .nav-button {
+  text-align: center;
+  font-size: 12px;
+  // background-color: $tri-coral;
+  padding: 20px 100px;
+  margin: 5px;
+  color: $secondary-blue;
+  text-decoration: none !important;
+}
+
+// back to home button
+.back-btn {
   display: block;
   justify-content: center;
   align-items: center;
   font-size: 12px;
-  background-color: $off-white;
-  padding: 20px 100px;
+  background-color: $secondary-coral;
+  padding: 10px 50px;
   margin: 10px;
 }
-
-// back to home button
-//  back-btn {
-// }
 
 // About, home, contact
