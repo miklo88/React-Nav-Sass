@@ -5,8 +5,9 @@ const About = () => {
   return (
     <div className='About'>
       <p>About me page</p>
+
       {/* homepage button */}
-      <button>
+      <button className='back-btn'>
         <Link to='/home'>Home</Link>
       </button>
     </div>

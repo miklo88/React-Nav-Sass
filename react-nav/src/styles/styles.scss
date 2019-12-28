@@ -1,9 +1,58 @@
+// // google font import
 @import url("https://fonts.googleapis.com/css?family=Lato:100,400,900&display=swap");
 
-body {
+// variable imports
+@import "variables.scss";
+
+// grid layout
+// * {
+//   box-sizing: border-box;
+// }
+
+// mixin imports
+
+.App {
   font-family: "Lato", sans-serif;
+  height: 2000px;
+  width: 100%;
+  max-width: 1000px;
+  min-width: 400px;
   margin: 0 auto;
   padding: 0 auto;
-  max-width: 1200px;
-  min-width: 400px;
 }
+
+h1 {
+  color: $primary-blue;
+}
+p {
+  color: $primary-blue;
+}
+
+// Nav
+// nav-main
+.nav-main {
+  width: 100%;
+  padding: 5%;
+  background-color: $primary-coral;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+// BUTTONS
+// navigation buttons
+.nav-button {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  background-color: $off-white;
+  padding: 20px 100px;
+  margin: 10px;
+}
+
+// back to home button
+//  back-btn {
+// }
+
+// About, home, contact
