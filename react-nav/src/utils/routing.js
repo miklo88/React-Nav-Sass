@@ -16,17 +16,17 @@ const Routes = () => {
         <div className='nav-btn-wrap'>
           <button className='nav-button'>
             <Link className='btn-link' to='/home'>
-              <p>Landing Page</p>
+              Landing Page
             </Link>
           </button>
           <button className='nav-button'>
             <Link className='btn-link' to='/about'>
-              <p className='btn-text'>About</p>
+              About
             </Link>
           </button>
           <button className='nav-button'>
             <Link className='btn-link' to='/contact'>
-              <p className='btn-text'>Contact</p>
+              Contact
             </Link>
           </button>
         </div>

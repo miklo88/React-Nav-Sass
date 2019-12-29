@@ -23,9 +23,9 @@
 }
 
 // h1's p's etc. going back through and giving them all classnames.
-// p {
-//   color: $primary-blue;
-// }
+p {
+  color: $primary-blue;
+}
 
 // Nav  //////////////////////////////////
 // nav-main
@@ -51,32 +51,26 @@
   justify-content: flex-end;
   align-items: flex-end;
 }
-// navigation buttons
-.nav-button {
-  text-align: center;
-  font-size: 16px;
-  padding: 15px 45px;
-  margin: 5px;
-  border: 2px solid $primary-coral;
-  color: $primary-coral;
-  cursor: pointer;
-  :hover {
-    background-color: $tri-coral;
-  }
 
-  // nav-button text //////////////////////////
-  // .btn-text {
-  //   // color: $primary-coral;
-  //   // :hover {
-  //   //   background-color: $off-white;
-  //   // }
-  // }
-  .btn-link {
-    text-decoration: none !important;
-  }
+.btn-link:link,
+.btn-link:visited {
+  font-size: 16px;
+  color: $primary-coral;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none !important;
+  display: inline-block;
+  border: 2px solid $primary-coral;
+  margin: 10px;
 }
 
+.btn-link:hover,
+.btn-link:active {
+  background-color: $primary-coral;
+  color: $off-white;
+}
 // back to home button //////////////////////////
+
 .back-btn {
   display: flex;
   justify-content: center;
@@ -89,14 +83,10 @@
   .btn-home-text {
     color: $off-white;
     cursor: pointer;
-    // // links for the nav and back btns  //////////////////////////////////
-    .link {
-      text-decoration: none !important;
-    }
   }
 }
 
 // links for the nav and back btns  //////////////////////////////////
-// .link {
-//   text-decoration: none !important;
-// }
+.link {
+  text-decoration: none !important;
+}
