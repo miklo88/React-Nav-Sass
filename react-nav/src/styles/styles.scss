@@ -21,29 +21,36 @@
   margin: 0 auto;
   padding: 0 auto;
 }
-// h1's p's etc. going back through and giving them all classnames.
-.nav-h1 {
-  display: flex;
 
-  color: $primary-blue;
-}
-p {
-  color: $primary-blue;
-}
+// h1's p's etc. going back through and giving them all classnames.
+// p {
+//   color: $primary-blue;
+// }
 
 // Nav  //////////////////////////////////
 // nav-main
 .nav-main {
   display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
   line-height: 25px;
   width: 100%;
   padding: 10px;
 }
+// navigation h1
+.nav-h1 {
+  color: $primary-blue;
+}
 
 // BUTTONS  //////////////////////////////////
+// nav btn wrapper
+.nav-btn-wrap {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
 // navigation buttons
 .nav-button {
   text-align: center;
@@ -51,10 +58,21 @@ p {
   padding: 15px 45px;
   margin: 5px;
   border: 2px solid $primary-coral;
+  color: $primary-coral;
+  cursor: pointer;
+  :hover {
+    background-color: $tri-coral;
+  }
 
   // nav-button text //////////////////////////
-  .btn-text {
-    color: $primary-coral;
+  // .btn-text {
+  //   // color: $primary-coral;
+  //   // :hover {
+  //   //   background-color: $off-white;
+  //   // }
+  // }
+  .btn-link {
+    text-decoration: none !important;
   }
 }
 
@@ -70,11 +88,15 @@ p {
   ///////////// back to home button text
   .btn-home-text {
     color: $off-white;
+    cursor: pointer;
+    // // links for the nav and back btns  //////////////////////////////////
+    .link {
+      text-decoration: none !important;
+    }
   }
 }
 
 // links for the nav and back btns  //////////////////////////////////
-.link {
-  text-decoration: none !important;
-}
-// About, home, contact
+// .link {
+//   text-decoration: none !important;
+// }
