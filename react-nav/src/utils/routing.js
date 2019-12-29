@@ -10,9 +10,11 @@ const Routes = () => {
   return (
     <BrowserRouter>
       <div className='nav-main'>
-        <h1>ReactJS</h1>
+        <div className='nav-h1'>
+          <h1>ReactJS</h1>
+        </div>
         <button className='nav-button'>
-          <Link to='/home'>
+          <Link className='link' to='/home'>
             <p className='btn-text'>Landing Page</p>
           </Link>
         </button>
@@ -22,7 +24,7 @@ const Routes = () => {
           </Link>
         </button>
         <button className='nav-button'>
-          <Link to='/contact'>
+          <Link className='link' to='/contact'>
             <p className='btn-text'>Contact</p>
           </Link>
         </button>

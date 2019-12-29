@@ -1,15 +1,16 @@
 // // google font import
 @import url("https://fonts.googleapis.com/css?family=Lato:100,400,900&display=swap");
 
-// variable imports
+// variable imports  //////////////////////////////////
 @import "variables.scss";
 
-// grid layout
+// grid layout  //////////////////////////////////
 // * {
 //   box-sizing: border-box;
 // }
 
-// mixin imports
+// mixin imports  //////////////////////////////////
+
 // app styling acting as body styling.
 .App {
   font-family: "Lato", sans-serif;
@@ -20,51 +21,60 @@
   margin: 0 auto;
   padding: 0 auto;
 }
+// h1's p's etc. going back through and giving them all classnames.
+.nav-h1 {
+  display: flex;
 
-h1 {
-  color: $off-white;
+  color: $primary-blue;
 }
-// p {
-//   color: $off-white;
-// }
-.btn-text {
-  color: $secondary-blue;
+p {
+  color: $primary-blue;
 }
 
-// Nav
+// Nav  //////////////////////////////////
 // nav-main
 .nav-main {
-  display: flexbox;
-  flex-wrap: wrap;
-  flex-direction: column;
+  display: flex;
+  flex-direction: row;
   justify-content: flex-end;
   align-items: center;
-  background-color: $secondary-blue;
+  line-height: 25px;
   width: 100%;
-  padding: 5px;
+  padding: 10px;
 }
 
-// BUTTONS
+// BUTTONS  //////////////////////////////////
 // navigation buttons
 .nav-button {
   text-align: center;
-  font-size: 12px;
-  // background-color: $tri-coral;
-  padding: 20px 100px;
+  font-size: 16px;
+  padding: 15px 45px;
   margin: 5px;
-  color: $secondary-blue;
-  text-decoration: none !important;
+  border: 2px solid $primary-coral;
+
+  // nav-button text //////////////////////////
+  .btn-text {
+    color: $primary-coral;
+  }
 }
 
-// back to home button
+// back to home button //////////////////////////
 .back-btn {
-  display: block;
+  display: flex;
   justify-content: center;
   align-items: center;
   font-size: 12px;
-  background-color: $secondary-coral;
+  background-color: $primary-coral;
   padding: 10px 50px;
   margin: 10px;
+  ///////////// back to home button text
+  .btn-home-text {
+    color: $off-white;
+  }
 }
 
+// links for the nav and back btns  //////////////////////////////////
+.link {
+  text-decoration: none !important;
+}
 // About, home, contact

@@ -8,7 +8,9 @@ const About = () => {
 
       {/* homepage button */}
       <button className='back-btn'>
-        <Link to='/home'>Home</Link>
+        <Link className='link' to='/home'>
+          <p className='btn-home-text'>Home</p>
+        </Link>
       </button>
     </div>
   );
