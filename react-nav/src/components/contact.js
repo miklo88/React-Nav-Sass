@@ -5,7 +5,13 @@ const Contact = () => {
   return (
     <div className='Contact'>
       <p>Contact me page/form</p>
-      <div></div>
+      <div>
+        <form>
+          <inputs />
+          <inputs />
+          <inputs />
+        </form>
+      </div>
       {/* homepage button */}
       <Link className='back-home' to='/home'>
         Home

@@ -11,17 +11,17 @@ const Routes = () => {
     <BrowserRouter>
       <div className='nav-main'>
         {/* nav h1 title */}
-        <h1 className='nav-h1'>ReactJS</h1>
+        <h1 className='nav-h1'>MIKLO</h1>
         {/* navigation buttons and links and routes */}
         <div className='nav-btn-wrap'>
           <Link className='btn-link' to='/home'>
-            Landing Page
+            home
           </Link>
           <Link className='btn-link' to='/about'>
-            About
+            about
           </Link>
           <Link className='btn-link' to='/contact'>
-            Contact
+            contact
           </Link>
         </div>
         {/* nav-btn-wrap */}
