@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Contact = () => {
   return (
@@ -19,6 +20,10 @@ const Contact = () => {
         </form>
         {/* contact-form */}
       </div>
+      {/* homepage button */}
+      <Link className='back-home' to='/home'>
+        Home
+      </Link>
       {/* contact-body */}
     </div>
   );

@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter, Link } from "react-router-dom";
+import { BrowserRouter, Route, Link, Switch } from "react-router-dom";
 
 // footer body
 const Footer = () => {
@@ -10,6 +10,9 @@ const Footer = () => {
         <Link className='back-home' to='/home'>
           Home
         </Link>
+        {/* <Switch>
+          <Route path='/home' component={Home} />
+        </Switch> */}
       </div>
     </BrowserRouter>
     // footer-body

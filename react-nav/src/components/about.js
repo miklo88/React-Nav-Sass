@@ -1,6 +1,7 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
-// about body
+// footer
 const About = () => {
   return (
     <div className='about-body'>
@@ -8,7 +9,12 @@ const About = () => {
       <div className='about-container'>
         the story about a man who is obsessed with making an impact.
       </div>
-      {/* about-body */}
+      {/* contact-body */}
+
+      {/* homepage button */}
+      <Link className='back-home' to='/home'>
+        Home
+      </Link>
     </div>
   );
 };
