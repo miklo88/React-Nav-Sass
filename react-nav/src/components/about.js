@@ -7,11 +7,9 @@ const About = () => {
       <p>About me page</p>
 
       {/* homepage button */}
-      <button className='back-btn'>
-        <Link className='link' to='/home'>
-          <p className='btn-home-text'>Home</p>
-        </Link>
-      </button>
+      <Link className='back-home' to='/home'>
+        Home
+      </Link>
     </div>
   );
 };

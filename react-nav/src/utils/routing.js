@@ -14,21 +14,15 @@ const Routes = () => {
         <h1 className='nav-h1'>ReactJS</h1>
         {/* navigation buttons and links and routes */}
         <div className='nav-btn-wrap'>
-          <button className='nav-button'>
-            <Link className='btn-link' to='/home'>
-              Landing Page
-            </Link>
-          </button>
-          <button className='nav-button'>
-            <Link className='btn-link' to='/about'>
-              About
-            </Link>
-          </button>
-          <button className='nav-button'>
-            <Link className='btn-link' to='/contact'>
-              Contact
-            </Link>
-          </button>
+          <Link className='btn-link' to='/home'>
+            Landing Page
+          </Link>
+          <Link className='btn-link' to='/about'>
+            About
+          </Link>
+          <Link className='btn-link' to='/contact'>
+            Contact
+          </Link>
         </div>
         {/* nav-btn-wrap */}
       </div>

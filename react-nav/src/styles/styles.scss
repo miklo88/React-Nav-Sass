@@ -70,21 +70,37 @@ p {
   color: $off-white;
 }
 // back to home button //////////////////////////
-
-.back-btn {
+.back-home:link,
+.back-home:visited {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 12px;
+  font-size: 14px;
   background-color: $primary-coral;
-  padding: 10px 50px;
+  color: $off-white;
+  text-decoration: none !important;
+  padding: 10px 25px;
   margin: 10px;
-  ///////////// back to home button text
-  .btn-home-text {
-    color: $off-white;
-    cursor: pointer;
-  }
 }
+
+.back-home:hover,
+.back-home:active {
+  background-color: $off-white;
+  color: $primary-coral;
+}
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   font-size: 12px;
+//   background-color: $primary-coral;
+//   padding: 10px 50px;
+//   margin: 10px;
+//   ///////////// back to home button text
+//   .btn-home-text {
+//     color: $off-white;
+//     cursor: pointer;
+//   }
+// }
 
 // links for the nav and back btns  //////////////////////////////////
 .link {
