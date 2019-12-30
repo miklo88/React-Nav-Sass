@@ -7,11 +7,13 @@ import "./styles/variables.scss";
 
 // importing components
 import Routes from "./utils/routing";
+import Footer from "./utils/footer";
 
 function App() {
   return (
     <div className='App'>
       <Routes />
+      <Footer />
     </div>
   );
 }
