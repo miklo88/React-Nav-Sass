@@ -4,13 +4,12 @@
 // variable imports  //////////////////////////////////
 @import "variables.scss";
 
-// grid layout  //////////////////////////////////
-// * {
-//   box-sizing: border-box;
-// }
-
 // mixin imports  //////////////////////////////////
 
+// grid layout  //////////////////////////////////
+* {
+  box-sizing: border-box;
+}
 // app styling acting as body styling.
 .App {
   font-family: "Lato", sans-serif;
@@ -23,87 +22,11 @@
 }
 
 // h1's p's etc. going back through and giving them all classnames.
+h1 {
+  // color: $secondary-blue;
+  color: $tri-coral;
+  // color: $off-white;
+}
 p {
-  color: $primary-blue;
-}
-
-// Nav  //////////////////////////////////
-// nav-main
-.nav-main {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  line-height: 25px;
-  height: 200px;
-  width: 100%;
-  padding: 10px;
-}
-// navigation h1
-.nav-h1 {
-  color: $primary-blue;
-}
-
-// BUTTONS  //////////////////////////////////
-// nav btn wrapper
-.nav-btn-wrap {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-  align-items: flex-end;
-}
-
-.btn-link:link,
-.btn-link:visited {
-  font-size: 16px;
-  // border: 5px solid $secondary-coral;
-  color: $primary-coral;
-  padding: 14px 25px;
-  text-align: center;
-  text-decoration: none !important;
-  display: inline-block;
-  margin: 5px;
-}
-
-.btn-link:hover,
-.btn-link:active {
-  background-color: $primary-coral;
-  color: $off-white;
-}
-// back to home button //////////////////////////
-.back-home:link,
-.back-home:visited {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 14px;
-  background-color: $primary-coral;
-  color: $off-white;
-  text-decoration: none !important;
-  padding: 10px 25px;
-  margin: 10px;
-}
-
-.back-home:hover,
-.back-home:active {
-  background-color: $off-white;
-  color: $primary-coral;
-}
-//   display: flex;
-//   justify-content: center;
-//   align-items: center;
-//   font-size: 12px;
-//   background-color: $primary-coral;
-//   padding: 10px 50px;
-//   margin: 10px;
-//   ///////////// back to home button text
-//   .btn-home-text {
-//     color: $off-white;
-//     cursor: pointer;
-//   }
-// }
-
-// links for the nav and back btns  //////////////////////////////////
-.link {
-  text-decoration: none !important;
+  color: $secondary-blue;
 }

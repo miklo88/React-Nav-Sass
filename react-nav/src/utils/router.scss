@@ -1,0 +1,88 @@
+// // google font import
+@import url("https://fonts.googleapis.com/css?family=Lato:100,400,900&display=swap");
+
+// variable imports  //////////////////////////////////
+@import "../styles/variables.scss";
+// /* Color Theme Swatches in Hex */
+// $primary-coral: #d26363;
+// $secondary-coral: #d2a8aa;
+// $primary-blue: #0e2a38;
+// $secondary-blue: #304753;
+// $tri-coral: #cf7e83;
+// $off-white: #efeae8;
+
+// mixin imports  //////////////////////////////////
+
+// Nav  //////////////////////////////////
+// nav-main
+.nav-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  line-height: 25px;
+  height: 200px;
+  width: 100%;
+  padding: 10px;
+}
+// navigation h1
+.nav-h1 {
+  color: $secondary-blue;
+}
+// BUTTONS  //////////////////////////////////
+// nav btn wrapper
+.nav-btn-wrap {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.btn-link:link,
+.btn-link:visited {
+  border-radius: 8px;
+  font-size: 16px;
+  color: $primary-coral;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none !important;
+  display: inline-block;
+  // margin: 5px;
+}
+
+.btn-link:hover {
+  background-color: $primary-coral;
+  color: $off-white;
+}
+.btn-link:active {
+  background-color: $off-white;
+  color: $primary-blue;
+}
+// back to home button //////////////////////////
+.back-home:link,
+.back-home:visited {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  background-color: $primary-coral;
+  border-radius: 8px;
+  color: $off-white;
+  text-decoration: none !important;
+  padding: 10px 25px;
+  margin: 10px;
+}
+// on hover
+.back-home:hover {
+  background-color: $off-white;
+  color: $primary-coral;
+}
+// on click
+.back-home:active {
+  background-color: $off-white;
+  color: $primary-blue;
+}
+// links for the nav and back btns  //////////////////////////////////
+.link {
+  text-decoration: none !important;
+}

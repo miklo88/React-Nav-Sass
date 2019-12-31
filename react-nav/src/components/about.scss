@@ -1,0 +1,40 @@
+// // google font import
+@import url("https://fonts.googleapis.com/css?family=Lato:100,400,900&display=swap");
+
+// variable imports  //////////////////////////////////
+@import "../styles/variables.scss";
+// /* Color Theme Swatches in Hex */
+// $primary-coral: #d26363;
+// $secondary-coral: #d2a8aa;
+// $primary-blue: #0e2a38;
+// $secondary-blue: #304753;
+// $tri-coral: #cf7e83;
+// $off-white: #efeae8;
+
+// mixin imports  //////////////////////////////////
+
+// about body
+.about-body {
+  // display: flex;
+  // flex-direction: column;
+  // justify-content: center;
+  // align-items: center;
+  border: 2px solid $off-white;
+  border-radius: 8px;
+  padding: 5%;
+  // about-title h1 on page
+  .about-title {
+    justify-content: center;
+    align-items: center;
+  }
+}
+.about-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: $off-white;
+  border-radius: 8px;
+  width: 100%;
+  padding: 5%;
+}

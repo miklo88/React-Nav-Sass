@@ -1,0 +1,57 @@
+// // google font import
+@import url("https://fonts.googleapis.com/css?family=Lato:100,400,900&display=swap");
+
+// variable imports  //////////////////////////////////
+@import "../styles/variables.scss";
+// /* Color Theme Swatches in Hex */
+// $primary-coral: #d26363;
+// $secondary-coral: #d2a8aa;
+// $primary-blue: #0e2a38;
+// $secondary-blue: #304753;
+// $tri-coral: #cf7e83;
+// $off-white: #efeae8;
+
+// mixin imports  //////////////////////////////////
+
+// contact body
+.contact-body {
+  border: 2px solid $off-white;
+  border-radius: 8px;
+}
+.contact-container {
+  padding: 5%;
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: $off-white;
+  border-radius: 8px;
+  padding: 5%;
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+// .label-1 {
+
+// }
+// .input-1 {
+
+// }
+// .label-2 {
+
+// }
+// .input-2 {
+
+// }
+// .label-3 {
+
+// }
+// .input-3 {
+
+// }

@@ -1,6 +1,6 @@
 // import React from "react";
 // import { BrowserRouter, Route, Link, Switch } from "react-router-dom";
-
+// import { Home } from "../components/home";
 // // footer body
 // const Footer = () => {
 //   return (
@@ -10,13 +10,13 @@
 //         <Link className='back-home' to='/home'>
 //           Home
 //         </Link>
-//         {/* <Switch>
+//         <Switch>
 //           <Route path='/home' component={Home} />
-//         </Switch> */}
+//         </Switch>
 //       </div>
 //     </BrowserRouter>
 //     // footer-body
 //   );
 // };
 
-// export default Footer;
+// export { Footer };
