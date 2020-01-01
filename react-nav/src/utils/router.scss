@@ -46,11 +46,12 @@
   display: inline-block;
   // margin: 5px;
 }
-
+// on hover
 .btn-link:hover {
   background-color: $primary-coral;
   color: $off-white;
 }
+// on click
 .btn-link:active {
   background-color: $off-white;
   color: $primary-blue;

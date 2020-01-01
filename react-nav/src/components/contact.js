@@ -4,36 +4,44 @@ import "./contact.scss";
 
 const Contact = () => {
   return (
+    // page container
     <div className='contact-body'>
+      {/* entire form container */}
       <div className='contact-container'>
+        {/* container title */}
         <h1 className='contact-title'>contact</h1>
+        <p className='form-title'>say hello to me</p>
+        {/* form-container */}
         <div className='form-container'>
-          <p className=''>say hello to me.</p>
           <form className='contact-form'>
+            {/* name input */}
             <label className='label-1'>
-              <input className='input-1' type='text' name='first-name' />
               <p className='first-name'>name</p>
+              <input className='input-1' type='text' name='first-name' />
             </label>
+            {/* email input */}
             <label className='label-2'>
+              <p className='email'>email</p>
               <input
                 className='input-2'
                 type='text'
                 name='email'
                 // value='email'
               />
-              <p className='email'>email</p>
             </label>
+            {/* info input */}
             <label className='label-3'>
-              <input className='input-3' type='text' name='text' />
               <p className='last-name'>additional info</p>
+              <input className='input-3' type='text' name='text' />
             </label>
-            <label className='label-4'>
+            {/* submit link btn input */}
+            <label className='submit'>
               <input
-                className='input-4'
-                type='submit'
-                value='deliver message'
+                className='input-btn'
+                type='button'
+                onclick="alert('Hello World!')"
+                value='submit'
               />
-              <p className=''></p>
             </label>
           </form>
           {/* contact-form */}

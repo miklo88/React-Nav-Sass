@@ -26,34 +26,77 @@
   background-color: $off-white;
   border-radius: 8px;
   padding: 5%;
+  // .form-title {
+  //   padding-bottom: 20px;
+  // }
   .contact-form {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    // submit-label
+    .submit {
+      margin: 25px;
+    }
+    input-btn .input-btn:link,
+    .input-btn:visited {
+      border-radius: 8px;
+      font-size: 16px;
+      color: $primary-coral;
+      padding: 25px 50px;
+      text-align: center;
+      text-decoration: none !important;
+      // display: inline-block;
+    }
+
+    .input-btn:hover {
+      background-color: $primary-coral;
+      color: $off-white;
+    }
+    .input-btn:active {
+      background-color: $off-white;
+      color: $primary-blue;
+    }
+    .input-btn[type="text"] {
+      width: 100%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      box-sizing: border-box;
+    }
+    .label-1 {
+      padding: 5px;
+    }
+    .input-1 {
+      padding: 10px 20px 10px 20px;
+      border-radius: 8px;
+
+      // -webkit-appearance: none;
+      // box-shadow: none !important;
+      // background-color: $off-white;
+      // border-bottom: 5px solid $tri-coral;
+      // padding-bottom: 0px;
+    }
+    .label-2 {
+      padding: 5px;
+    }
+    .input-2 {
+      padding: 10px 20px 10px 20px;
+      border-radius: 8px;
+    }
+    .label-3 {
+      padding: 5px;
+    }
+    .input-3 {
+      padding: 10px 20px 10px 20px;
+      border-radius: 8px;
+    }
   }
 }
 
-.label-1 {
-  padding: 5px;
-}
-.input-1 {
-  padding: 20px 20px 0px 20px;
-  // -webkit-appearance: none;
-  // box-shadow: none !important;
-  background-color: $off-white;
-  border-bottom: 5px solid $tri-coral;
-  // padding-bottom: 0px;
-}
-.label-2 {
-  padding: 5px;
-}
-.input-2 {
-  padding: 20px 20px 0px 20px;
-}
-.label-3 {
-  padding: 5px;
-}
-.input-3 {
-  padding: 20px 20px 0px 20px;
-}
+// submit form button.
+// .submit {
+//   display: flex;
+//   flex-direction: row;
+//   justify-content: flex-end;
+//   align-items: flex-end;
+// }
