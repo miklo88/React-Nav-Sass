@@ -7,7 +7,7 @@ import "./about.scss";
 const About = () => {
   return (
     <div className='about-body'>
-      <h1 className='about-title'>about</h1>
+      <h1 className='about-title'>About</h1>
       <div className='about-container'>
         <p>the story about a man who is obsessed with making an impact.</p>
         {/* about-container */}

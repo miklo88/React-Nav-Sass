@@ -17,13 +17,13 @@ const Routes = () => {
         {/* navigation buttons and links and routes */}
         <div className='nav-btn-wrap'>
           <Link className='btn-link' to='/home'>
-            home
+            Home
           </Link>
           <Link className='btn-link' to='/about'>
-            about
+            About
           </Link>
           <Link className='btn-link' to='/contact'>
-            contact
+            Contact
           </Link>
         </div>
         {/* nav-btn-wrap */}

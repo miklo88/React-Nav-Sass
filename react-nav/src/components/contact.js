@@ -9,8 +9,10 @@ const Contact = () => {
       {/* entire form container */}
       <div className='contact-container'>
         {/* container title */}
-        <h1 className='contact-title'>contact</h1>
+        <h1 className='contact-title'>Contact</h1>
+
         <p className='form-title'>say hello to me</p>
+
         {/* form-container */}
         <div className='form-container'>
           <form className='contact-form'>
