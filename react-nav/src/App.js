@@ -1,5 +1,5 @@
 import React from "react";
-
+import axios from "axios";
 // scss styling
 import "./styles/styles.scss";
 import "./styles/variables.scss";
