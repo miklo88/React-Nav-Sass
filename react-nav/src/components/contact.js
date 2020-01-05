@@ -36,18 +36,20 @@ const Contact = () => {
               <p className='last-name'>additional info</p>
               <input className='input-3' type='text' name='text' />
             </label>
-            {/* submit link btn input */}
-            <label className='submit'>
-              <input
-                className='input-btn'
-                type='button'
-                onclick="alert('Hello World!')"
-                value='submit'
-              />
-            </label>
           </form>
           {/* contact-form */}
+          {/* submit link btn input */}
+          <button
+            className='input-btn'
+            type='submit'
+            onClick="alert('Hello
+                World!')"
+            value='submit'
+          >
+            Push me
+          </button>
         </div>
+
         {/* homepage button */}
         <Link className='back-home' to='/home'>
           Home

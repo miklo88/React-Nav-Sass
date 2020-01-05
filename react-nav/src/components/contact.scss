@@ -20,7 +20,6 @@
 }
 // h1
 // .contact-title {
-  
 
 // }
 .form-container {
@@ -39,35 +38,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    // submit-label
-    .submit {
-      margin: 25px;
-    }
-    input-btn .input-btn:link,
-    .input-btn:visited {
-      border-radius: 8px;
-      font-size: 16px;
-      color: $primary-coral;
-      padding: 25px 50px;
-      text-align: center;
-      text-decoration: none !important;
-      // display: inline-block;
-    }
 
-    .input-btn:hover {
-      background-color: $primary-coral;
-      color: $off-white;
-    }
-    .input-btn:active {
-      background-color: $off-white;
-      color: $primary-blue;
-    }
-    .input-btn[type="text"] {
-      width: 100%;
-      padding: 12px 20px;
-      margin: 8px 0;
-      box-sizing: border-box;
-    }
     .label-1 {
       padding: 5px;
     }
@@ -97,11 +68,24 @@
     }
   }
 }
-
-// submit form button.
-// .submit {
-//   display: flex;
-//   flex-direction: row;
-//   justify-content: flex-end;
-//   align-items: flex-end;
-// }
+button .input-btn:link,
+button .input-btn:visited {
+  border-radius: 8px;
+  font-size: 16px;
+  color: $primary-coral;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none !important;
+  display: inline-block;
+  // margin: 5px;
+}
+// on hover
+button .input-btn:hover {
+  background-color: $primary-coral;
+  color: $off-white;
+}
+// on click
+button .input-btn:active {
+  background-color: $off-white;
+  color: $primary-blue;
+}
