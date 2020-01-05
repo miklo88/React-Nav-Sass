@@ -6,6 +6,7 @@ import "./styles/variables.scss";
 
 // importing components
 import API from "./api/axios/axios";
+import APIHook from "./api/axios/apiHook";
 import Routes from "./utils/routing";
 // import Footer from "./utils/footer";
 
@@ -13,6 +14,7 @@ function App() {
   return (
     <div className='App'>
       <API />
+      <APIHook />
       <Routes />
       {/* <Footer /> */}
     </div>

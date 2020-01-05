@@ -1,10 +1,14 @@
 import React from "react";
 import axios from "axios";
 
-console.log(axios);
-
 const API = () => {
-  return <>displaying where the api would appear.</>;
+  // logic
+  axios.create({
+    baseURL: `http://jsonplaceholder.typicode.com/photos/`
+  });
+
+  // page rendered data
+  return <>axios data.</>;
 };
 
 export default API;
