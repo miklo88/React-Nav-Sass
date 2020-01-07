@@ -24,7 +24,7 @@
 }
 // navigation h1
 .nav-h1 {
-  color: $primary-coral;
+  color: $primary-blue;
   font-weight: 900;
   font-size: 3rem;
   padding: 10px;
@@ -42,7 +42,7 @@
 .btn-link:visited {
   border-radius: 8px;
   font-size: 16px;
-  color: $primary-coral;
+  color: $primary-blue;
   padding: 14px 25px;
   text-align: center;
   text-decoration: none !important;
@@ -51,13 +51,13 @@
 }
 // on hover
 .btn-link:hover {
-  background-color: $primary-coral;
-  color: $off-white;
+  background-color: $off-white;
+  color: $primary-blue;
 }
 // on click
 .btn-link:active {
   background-color: $off-white;
-  color: $primary-blue;
+  color: $off-white;
 }
 // back to home button //////////////////////////
 .back-home:link,
@@ -66,7 +66,7 @@
   justify-content: center;
   align-items: center;
   font-size: 14px;
-  background-color: $primary-coral;
+  background-color: $primary-blue;
   border-radius: 8px;
   color: $off-white;
   text-decoration: none !important;
@@ -76,12 +76,12 @@
 // on hover
 .back-home:hover {
   background-color: $off-white;
-  color: $primary-coral;
+  color: $primary-blue;
 }
 // on click
 .back-home:active {
   background-color: $off-white;
-  color: $primary-blue;
+  color: $off-white;
 }
 // links for the nav and back btns  //////////////////////////////////
 .link {

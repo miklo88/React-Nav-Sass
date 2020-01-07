@@ -2,6 +2,9 @@
 import React from "react";
 import axios from "axios";
 
+// styles
+import "./api.scss";
+
 export default function APIHook() {
   //dummy api-   https://jsonplaceholder.typicode.com/users
   //   return await axios.get("https://dog.ceo/api/breeds/list/all");
@@ -22,8 +25,20 @@ export default function APIHook() {
   countTanks();
 
   return (
-    <div>
-      <ul>apiHook data.</ul>
+    <div className='apiHook'>
+      <div className='apiHook-form-cont'>
+        <h1 className='apiHook-H1'>apiHook Data.</h1>
+
+        <ul className='items-container'>
+          <li className='item'>for the api data</li>
+          <li className='item'>for the api data</li>
+          <li className='item'>for the api data</li>
+          <li className='item'>for the api data</li>
+        </ul>
+        {/* items-container */}
+      </div>
+      {/* apiHook-form-cont */}
     </div>
+    // apiHook
   );
 }

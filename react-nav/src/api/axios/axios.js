@@ -1,13 +1,13 @@
 import React from "react";
 import axios from "axios";
 
+import "./api.scss";
+
 const API = () => {
   // logic
   axios.create({
     baseURL: `http://jsonplaceholder.typicode.com/photos/`
   });
-
-  // page rendered data
   return <>axios data.</>;
 };
 

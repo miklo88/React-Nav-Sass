@@ -1,0 +1,48 @@
+// variable imports  //////////////////////////////////
+@import "../../styles/variables.scss";
+// /* Color Theme Swatches in Hex */
+// $primary-coral: #d26363;
+// $secondary-coral: #d2a8aa;
+// $primary-blue: #0e2a38;
+// $secondary-blue: #304753;
+// $tri-coral: #cf7e83;
+// $off-white: #efeae8;
+
+// mixin imports  //////////////////////////////////
+// contact body
+
+// apiHooks body
+.apiHook {
+  border: 2px solid $off-white;
+  border-radius: 8px;
+  padding: 5%;
+  margin: 1%;
+  .apiHook-H1 {
+    padding-bottom: 10%;
+  }
+
+  .apiHook-form-cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: $off-white;
+    border-radius: 8px;
+    padding: 5%;
+    //   background-color: $primary-blue;
+    .items-container {
+      display: flex;
+      flex-direction: row;
+      padding: 10px;
+      border: 2px solid $primary-coral;
+      border-radius: 8px;
+      .item {
+        background-color: $tri-coral;
+        border-radius: 8px;
+        color: $off-white;
+        padding: 5px;
+        margin: 10px;
+      }
+    }
+  }
+} // apiHooks body
