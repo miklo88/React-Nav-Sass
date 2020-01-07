@@ -1,0 +1,32 @@
+// variable imports  //////////////////////////////////
+@import "../styles/variables.scss";
+// /* Color Theme Swatches in Hex */
+// $primary-coral: #d26363;
+// $secondary-coral: #d2a8aa;
+// $primary-blue: #0e2a38;
+// $secondary-blue: #304753;
+// $tri-coral: #cf7e83;
+// $off-white: #efeae8;
+
+// mixin imports  //////////////////////////////////
+
+// home body
+.footer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid $off-white;
+  background-color: $primary-blue;
+  border-radius: 8px;
+  padding: 5%;
+  margin: 1%;
+  .text-right {
+    color: $off-white;
+    border-right: 1px solid $off-white;
+    padding: 5px;
+  }
+  .text-left {
+    color: $off-white;
+    padding: 5px;
+  }
+}

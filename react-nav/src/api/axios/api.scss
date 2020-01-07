@@ -9,8 +9,22 @@
 // $off-white: #efeae8;
 
 // mixin imports  //////////////////////////////////
-// contact body
-
+// API body
+.API-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: $off-white;
+  border-radius: 8px;
+  padding: 5%;
+  margin: 1%;
+  .API-H1 {
+    color: $primary-coral;
+    padding: 10px;
+    margin: 10px;
+  }
+}
 // apiHooks body
 .apiHook {
   border: 2px solid $off-white;
@@ -37,10 +51,10 @@
       border: 2px solid $primary-coral;
       border-radius: 8px;
       .item {
-        background-color: $tri-coral;
+        border: 2px solid $primary-coral;
         border-radius: 8px;
-        color: $off-white;
-        padding: 5px;
+        color: $primary-coral;
+        padding: 15px;
         margin: 10px;
       }
     }

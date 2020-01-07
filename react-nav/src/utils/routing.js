@@ -16,7 +16,7 @@ const Routes = () => {
         <h1 className='nav-h1'>MIKLO</h1>
         {/* navigation buttons and links and routes */}
         <div className='nav-btn-wrap'>
-          <Link className='btn-link' to='/home'>
+          <Link className='btn-link' to='/'>
             Home
           </Link>
           <Link className='btn-link' to='/about'>
@@ -32,7 +32,7 @@ const Routes = () => {
 
       {/* route paths */}
       <Switch>
-        <Route path='/home' component={Home} />
+        <Route exact path='/' component={Home} />
         <Route path='/about' component={About} />
         <Route path='/contact' component={Contact} />
       </Switch>

@@ -10,7 +10,7 @@ const API = () => {
   });
   return (
     <div className='API-container'>
-      <h1 className='API-H1'>axios data</h1>
+      <h1 className='API-H1'>Axios Data</h1>
     </div>
   );
 };

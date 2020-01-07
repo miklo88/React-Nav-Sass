@@ -1,4 +1,7 @@
 import React from "react";
+
+import { BackHome } from "../utils/backHome";
+
 // styles
 import "./contact.scss";
 
@@ -52,6 +55,7 @@ const Contact = () => {
 
         {/* contact-container */}
       </div>
+      <BackHome />
       {/* contact-body */}
     </div>
   );

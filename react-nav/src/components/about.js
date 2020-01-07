@@ -1,5 +1,7 @@
 import React from "react";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
+
+import { BackHome } from "../utils/backHome";
 
 import "./about.scss";
 
@@ -15,9 +17,7 @@ const About = () => {
       {/* about-body */}
 
       {/* homepage button */}
-      <Link className='back-home' to='/home'>
-        Home
-      </Link>
+      <BackHome />
     </div>
   );
 };

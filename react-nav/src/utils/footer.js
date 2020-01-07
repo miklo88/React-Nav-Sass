@@ -1,19 +1,22 @@
 import React from "react";
-import { BrowserRouter, Route, Link } from "react-router-dom";
-// import { Home } from "../components/home";
+// import { Link } from "react-router-dom";
+
+// styles
+import "./footer.scss";
+
 // footer body
 const Footer = () => {
   return (
-    <BrowserRouter>
-      <div>
-        {/* homepage button */}
-        {/* homepage button */}
-        <Link className='back-home' to='/home'>
-          Home
-        </Link>
-      </div>
-    </BrowserRouter>
-    // footer-body
+    <div className='footer-container'>
+      <p className='text-right'>miklo</p>
+      <p className='text-left'>
+        chicago.<br></br>visual design.<br></br>code.
+      </p>
+      {/* homepage button */}
+      {/* <Link className='btn-link' to='/'>
+        Footer
+      </Link> */}
+    </div>
   );
 };
 
