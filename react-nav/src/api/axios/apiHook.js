@@ -1,23 +1,25 @@
-import React, { useState, useEffect } from "react";
+// import React, { useState, useEffect } from "react";
+import React from "react";
 import axios from "axios";
 
 export default function APIHook() {
   //dummy api-   https://jsonplaceholder.typicode.com/users
+  //   return await axios.get("https://dog.ceo/api/breeds/list/all");
 
-  const getBreeds = async () => {
+  const getTanks = async () => {
     try {
-      return await axios.get("https://dog.ceo/api/breeds/list/all");
+      return await axios.get("https://api.worldoftanks.com/wot/account/tanks/");
     } catch (error) {
       console.error(error);
     }
   };
-  const countBreeds = async () => {
-    const breeds = await getBreeds();
-    if (breeds.data.message) {
-      console.log(`Got ${Object.entries(breeds.data.message).length} breeds`);
+  const countTanks = async () => {
+    const tanks = await getTanks();
+    if (tanks.data.message) {
+      console.log(`Got ${Object.entries(tanks.data.message).length} tanks`);
     }
   };
-  countBreeds();
+  countTanks();
 
   return (
     <div>
