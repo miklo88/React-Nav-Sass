@@ -8,7 +8,7 @@ import "./styles/variables.scss";
 import API from "./api/axios/axios";
 import Routes from "./utils/routing";
 import APIHook from "./api/axios/apiHook";
-// import Footer from "./utils/footer";
+import Footer from "./utils/footer";
 
 function App() {
   return (
@@ -17,7 +17,8 @@ function App() {
       <Routes />
       <APIHook />
       <API />
-      {/* <Footer /> */}
+
+      <Footer />
     </div>
   );
 }

@@ -8,7 +8,11 @@ const API = () => {
   axios.create({
     baseURL: `http://jsonplaceholder.typicode.com/photos/`
   });
-  return <>axios data.</>;
+  return (
+    <div className='API-container'>
+      <h1 className='API-H1'>axios data</h1>
+    </div>
+  );
 };
 
 export default API;

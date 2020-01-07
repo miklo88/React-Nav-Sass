@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+// styles
 import "./contact.scss";
 
 const Contact = () => {
@@ -50,10 +50,6 @@ const Contact = () => {
           </button>
         </div>
 
-        {/* homepage button */}
-        <Link className='back-home' to='/home'>
-          Home
-        </Link>
         {/* contact-container */}
       </div>
       {/* contact-body */}
