@@ -27,12 +27,15 @@
 }
 // apiHooks body
 .apiHook {
-  border: 2px solid $off-white;
+  //   border: 2px solid $off-white;\
+  background-color: $primary-blue;
   border-radius: 8px;
   padding: 5%;
   margin: 1%;
   .apiHook-H1 {
-    padding-bottom: 10%;
+    color: $off-white;
+    padding: 10px;
+    margin: 10px;
   }
 
   .apiHook-form-cont {
@@ -40,7 +43,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: $off-white;
+    // background-color: $primary-blue;
     border-radius: 8px;
     padding: 5%;
     //   background-color: $primary-blue;
@@ -48,12 +51,14 @@
       display: flex;
       flex-direction: row;
       padding: 10px;
-      border: 2px solid $primary-coral;
+      //   border: 2px solid $primary-blue;
+      //   background-color: $off-white;
       border-radius: 8px;
       .item {
-        border: 2px solid $primary-coral;
+        border: 2px solid $off-white;
+        background-color: $off-white;
         border-radius: 8px;
-        color: $primary-coral;
+        color: $primary-blue;
         padding: 15px;
         margin: 10px;
       }

@@ -8,26 +8,27 @@ import "./api.scss";
 export default function APIHook() {
   //dummy api-   https://jsonplaceholder.typicode.com/users
   //   return await axios.get("https://dog.ceo/api/breeds/list/all");
+  // return await axios.get("https://api.worldoftanks.com/wot/account/tanks/");
 
-  const getTanks = async () => {
+  const getBreeds = async () => {
     try {
-      return await axios.get("https://api.worldoftanks.com/wot/account/tanks/");
+      return await axios.get("https://dog.ceo/api/breeds/list/all");
     } catch (error) {
       console.error(error);
     }
   };
-  const countTanks = async () => {
-    const tanks = await getTanks();
-    if (tanks.data.message) {
-      console.log(`Got ${Object.entries(tanks.data.message).length} tanks`);
+  const countBreeds = async () => {
+    const breeds = await getBreeds();
+    if (breeds.data.message) {
+      console.log(`Got ${Object.entries(breeds.data.message).length} breeds`);
     }
   };
-  countTanks();
+  countBreeds();
 
   return (
     <div className='apiHook'>
       <div className='apiHook-form-cont'>
-        <h1 className='apiHook-H1'>apiHook Data.</h1>
+        <h1 className='apiHook-H1'>ApiHook Data.</h1>
 
         <ul className='items-container'>
           <li className='item'>for the api data</li>
